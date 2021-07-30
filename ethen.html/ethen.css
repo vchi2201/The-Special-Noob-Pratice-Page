@@ -3,6 +3,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 section {
@@ -94,3 +96,34 @@ footer {
     margin-top: -380px;
     margin-bottom: -380px;
 }
+.Reddit{
+    width: 50px;
+    height: 50px;
+    border:solid 4px black;
+    border-radius: 50px;
+    background-image: url(redditlogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:125%;
+    margin-right:280px;
+    margin-left:280px;
+    margin-top: 390px;
+    margin-bottom: 390px; 
+}
+/*
+.Tiktok {
+    width: 50px;
+    height: 50px;
+    border:solid 4px black;
+    border-radius: 50px;
+    background-image: url(Tiktoklgo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:125%;
+    margin-right:180px;
+    margin-left:180px;
+    margin-top: 390px;
+    margin-bottom: 390px; 
+}
+
+
