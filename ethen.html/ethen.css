@@ -11,6 +11,7 @@ section {
     width: 500px;
     height: 700px;
     background-color: rgba(0, 4, 245, 0.781);
+    box-shadow: purple 0px 0px 30px 10px ;
     margin-right: 500px;
     margin-left: 500px;
     margin-top: 100px;
@@ -33,7 +34,15 @@ h1 {
     color: rgb(0, 0, 0);
     text-align: center;
 }
-
+/*
+This is where I tried creating a class for all the styling purpose so there is no code duplication can you tell how I would do that?
+.allicons {
+    width: 50px;
+    height: 50px;
+    border:solid 4px black;
+    border-radius: 50px;
+}
+*/
 .contactme {
     width: 250px;
     height: 80px;
@@ -56,10 +65,12 @@ footer {
 }
 
 .linkedin {
+    
     width: 50px;
     height: 50px;
     border:solid 4px black;
     border-radius: 50px;
+    
     background-image: url(Linkedin.png);
     margin-bottom: -380px;
     margin-top: -380px;
@@ -69,10 +80,12 @@ footer {
 }
 
 .Twitter {
+    
     width: 50px;
     height: 50px;
     border:solid 4px black;
     border-radius: 50px;
+    
     background-image: url(Twitter.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -83,10 +96,12 @@ footer {
 }
 
 .Instagram {
+    
     width: 50px;
     height: 50px;
     border:solid 4px black;
     border-radius: 50px;
+    
     background-image: url(instagramlogosecond.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -97,10 +112,12 @@ footer {
     margin-bottom: -380px;
 }
 .Reddit{
+    
     width: 50px;
     height: 50px;
     border:solid 4px black;
     border-radius: 50px;
+    
     background-image: url(redditlogo.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -110,20 +127,63 @@ footer {
     margin-top: 390px;
     margin-bottom: 390px; 
 }
-/*
+
 .Tiktok {
+    
     width: 50px;
     height: 50px;
     border:solid 4px black;
     border-radius: 50px;
+    
     background-image: url(Tiktoklgo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:125%;
-    margin-right:180px;
-    margin-left:180px;
-    margin-top: 390px;
-    margin-bottom: 390px; 
+    margin-right:130px;
+    margin-left:130px;
+    margin-top: -447px;
+    margin-bottom: -447px; 
+}
+/*
+The links class is the class that was suppose to be for all of the icons but I couldn't figure where to put it 
+So for now I just made a bunch of classes for the icons so it's clickable.
+
+*/
+.links {
+    border:solid rgba(0, 0, 0, 0) 4px;
+    border-radius: 20px;
+    padding-left: 24px;
+    padding-right: 23px;
+    padding-bottom: 28px;
+}
+
+.twitterlink {
+    border:solid rgba(0, 0, 0, 0) 4px;
+    border-radius: 20px;
+    padding-left: 24px;
+    padding-right: 23px;
+    padding-bottom: 28px;
+}
+.instagramlink {
+    border:solid rgba(0, 0, 0, 0) 4px;
+    border-radius: 20px;
+    padding-left: 24px;
+    padding-right: 23px;
+    padding-bottom: 28px;
+}
+.redditlink {
+    border:solid rgba(0, 0, 0, 0) 4px;
+    border-radius: 20px;
+    padding-left: 24px;
+    padding-right: 23px;
+    padding-bottom: 28px;
+}
+.tiktoklink {
+    border:solid rgba(0, 0, 0, 0) 4px;
+    border-radius: 20px;
+    padding-left: 24px;
+    padding-right: 23px;
+    padding-bottom: 28px;
 }
 
 
