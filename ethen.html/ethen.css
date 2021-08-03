@@ -141,26 +141,12 @@ Ok so here in allicons for some reason it's not letting me space the icons and a
     border:solid 4px black;
     border-radius: 50px;
 }
-
-
-
-
 /*
-.homepage {
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    margin-top: 250px;
-    margin-bottom: 250px;
-    margin-right: 200px;
-    margin-bottom: 200px;
-}
-
-.productpage {
-    width: 200px;
-    height: 200px;
-    background-color: white;    
-    margin-right:50px;
-    margin-left: 50px;
+I will work on the page buttons later but for some reason when I try to use the margin the section moves as well and I'm having trouble moving the page buttons div to the right place. 
+.pagebuttons {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    
 }
 */
