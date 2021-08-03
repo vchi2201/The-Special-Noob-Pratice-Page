@@ -12,6 +12,7 @@ section {
     height: 700px;
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(238, 238, 238) 0px 0px 30px 10px ;
+    border: solid 5px black;
     border-radius: 10%;
     margin-right: 500px;
     margin-left: 500px;
@@ -27,6 +28,7 @@ section {
     width: 200px;
     height: 200px;
     border: 5px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 5px;
     border-radius:150px;
     margin-left: 150px;
     margin-right: 150px;
@@ -39,19 +41,6 @@ h1 {
     text-align: center;
 }
 
-aside {
-    margin-right: 29.5px;
-    margin-left: 29.5px;
-}
-/*
-This is where I tried creating a class for all the styling purpose so there is no code duplication can you tell how I would do that?
-.allicons {
-    width: 50px;
-    height: 50px;
-    border:solid 4px black;
-    border-radius: 50px;
-}
-*/
 .contactme {
     width: 250px;
     height: 80px;
@@ -63,7 +52,8 @@ This is where I tried creating a class for all the styling purpose so there is n
     font-size: 30px;
     background-color: rgba(255, 255, 255, 0.219);
     border:3px solid black;
-    box-shadow: shadow 50px rgb(255, 254, 254);
+    box-shadow: 0px 0px 10px 5px rgb(0, 0, 0);
+    border-radius: 20px;
     cursor: pointer;
     
 }
@@ -73,128 +63,89 @@ footer {
     background-color: black;
 }
 
-.linkedin {
-    
-    width: 50px;
-    height: 50px;
-    border:solid 4px black;
-    border-radius: 50px;
-    
-    background-image: url(Linkedin.png);
-    margin-bottom: -380px;
-    margin-top: -380px;
-    margin-right: 50px;
-    margin-left: 50px;
 
+.iconbox {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px black;
+    border-radius: 20px;
+    box-shadow:0px 0px 10px 10px black;
+    width: 400px;
+    height: 100px;
+    margin:-370px 50px -370px 50px;
 }
 
-.Twitter {
-    
+/* 
+Ok so here in allicons for some reason it's not letting me space the icons and align them in the allicons div tag. Can you help me with this? 
+
+*/
+
+.allicons {
     width: 50px;
     height: 50px;
+    margin: 5px 5px 5px 5px;
+}
+
+
+
+.linkedin {    
+    background-image: url(Linkedin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 24px;
+    padding-right: 23px;
+    padding-bottom: 28px;
     border:solid 4px black;
     border-radius: 50px;
-    
+}
+
+.twitterlink {
     background-image: url(Twitter.png);
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 200px;
-    margin-left: 200px;
-    margin-top: 322px;
-    margin-bottom: 322px;
-}
-
-.Instagram {
-    
-    width: 50px;
-    height: 50px;
+    padding-left: 24px;
+    padding-right: 23px;
+    padding-bottom: 28px;
     border:solid 4px black;
     border-radius: 50px;
-    
+}
+.instagramlink {
     background-image: url(instagramlogosecond.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50px;
-    margin-right: 360px;
-    margin-left:360px;
-    margin-top: -380px;
-    margin-bottom: -380px;
-}
-.Reddit{
-    
-    width: 50px;
-    height: 50px;
+    padding-left: 24px;
+    padding-right: 23px;
+    padding-bottom: 28px;
     border:solid 4px black;
     border-radius: 50px;
-    
+}
+.redditlink {
     background-image: url(redditlogo.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:125%;
-    margin-right:280px;
-    margin-left:280px;
-    margin-top: 390px;
-    margin-bottom: 390px; 
-}
-
-.Tiktok {
-    
-    width: 50px;
-    height: 50px;
+    background-size:125%; 
+    padding-left: 24px;
+    padding-right: 23px;
+    padding-bottom: 28px;
     border:solid 4px black;
     border-radius: 50px;
-    
+}
+.tiktoklink {    
     background-image: url(Tiktoklgo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:125%;
-    margin-right:130px;
-    margin-left:130px;
-    margin-top: -447px;
-    margin-bottom: -447px; 
+    padding-left: 24px;
+    padding-right: 23px;
+    padding-bottom: 28px;
+    border:solid 4px black;
+    border-radius: 50px;
 }
+
+
+
+
 /*
-The links class is the class that was suppose to be for all of the icons but I couldn't figure where to put it 
-So for now I just made a bunch of classes for the icons so it's clickable.
-
-*/
-.links {
-    border:solid rgba(0, 0, 0, 0) 4px;
-    border-radius: 20px;
-    padding-left: 24px;
-    padding-right: 23px;
-    padding-bottom: 28px;
-}
-
-.twitterlink {
-    border:solid rgba(0, 0, 0, 0) 4px;
-    border-radius: 20px;
-    padding-left: 24px;
-    padding-right: 23px;
-    padding-bottom: 28px;
-}
-.instagramlink {
-    border:solid rgba(0, 0, 0, 0) 4px;
-    border-radius: 20px;
-    padding-left: 24px;
-    padding-right: 23px;
-    padding-bottom: 28px;
-}
-.redditlink {
-    border:solid rgba(0, 0, 0, 0) 4px;
-    border-radius: 20px;
-    padding-left: 24px;
-    padding-right: 23px;
-    padding-bottom: 28px;
-}
-.tiktoklink {
-    border:solid rgba(0, 0, 0, 0) 4px;
-    border-radius: 20px;
-    padding-left: 24px;
-    padding-right: 23px;
-    padding-bottom: 28px;
-}
-
 .homepage {
     width: 100px;
     height: 100px;
@@ -212,3 +163,4 @@ So for now I just made a bunch of classes for the icons so it's clickable.
     margin-right:50px;
     margin-left: 50px;
 }
+*/
