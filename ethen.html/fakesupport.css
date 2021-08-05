@@ -1,0 +1,38 @@
+body {
+    background-image: url(/ethen.html/wholepageRH.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+iframe {
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+
+
+
+
+
+
+/*
+.contactform {
+    width: 470px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
+    
+}
+form {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.reasonbox {
+    width: 400px;
+    height: 100px;
+}
+*/
